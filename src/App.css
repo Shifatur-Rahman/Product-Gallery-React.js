@@ -73,3 +73,8 @@
   width: 100%;
   height: auto;
 }
+
+
+.characters li:hover{
+  background-color: rgba(0,0,0,0.5);
+}
