@@ -2,18 +2,13 @@ import './App.css';
 import img1 from "././assets/img/image1.jpg";
 import img2 from "./assets/img/image2.jpg";
 import img3 from "././assets/img/image1.jpg";
-// import img2 from "..//public/assets/img/image2.jpg"
-// import img3 from "..//public/assets/img/image3.jpg"
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-import Product from './components/Product';
-import { useState } from 'react';
-import webp1 from "././assets/images/image-1.webp";
+import DisplayData from './components/DisplayData';
 
 function App() {
   const products = [
     {
       id:1,
-      thumb:webp1
+      thumb:img1
     },
     {
       id:2,
@@ -28,7 +23,10 @@ function App() {
   return (
     <div className='App'>
 
-  <Product />
+  {/* <Product /> */}
+
+  <DisplayData />
+
 
       {/* <DragDropContext>
         <Droppable droppableId="characters">
