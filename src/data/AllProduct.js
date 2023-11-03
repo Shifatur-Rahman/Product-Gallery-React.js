@@ -12,47 +12,47 @@ import image11 from "../assets/images/image-11.jpeg"
 
 const AllProduct =[
     {
-        id: 1,
+        id: "one",
         thumb: image1
     },
     {
-        id: 2,
+        id: "two",
         thumb: image2
     },
     {
-        id: 3,
+        id: "three",
         thumb: image3
     },
     {
-        id: 4,
+        id: "four",
         thumb: image4
     },
     {
-        id: 5,
+        id: "five",
         thumb: image5
     },
     {
-        id: 6,
+        id: "six",
         thumb: image6
     },
     {
-        id: 7,
+        id: "seven",
         thumb: image7
     },
     {
-        id: 8,
+        id: "eight",
         thumb: image8
     },
     {
-        id: 9,
+        id: "nine",
         thumb: image9
     },
     {
-        id: 10,
+        id: "ten",
         thumb: image10
     },
     {
-        id: 100,
+        id: "elevene",
         thumb: image11
     }
 ]
