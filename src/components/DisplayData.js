@@ -16,10 +16,8 @@ const DisplayData = () => {
   return (
     <>
 
-
-    
       <DragDropContext onDragEnd={handleOnChange}>
-        <Droppable droppableId="characters"  direction="horizontal">
+        <Droppable droppableId="characters">
 
           {
             (provided) => (
@@ -27,7 +25,7 @@ const DisplayData = () => {
                 {
                   char.map(({ id, thumb }, index) => {
                     return (
-                      <Draggable key={id} draggableId={id} index={index}>
+                      <Draggable  direction="vertical" key={id} draggableId={id} index={index}>
                         {(provided) => (
                           <div key={id} ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                           <div className='single_product'>

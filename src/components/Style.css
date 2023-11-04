@@ -1,0 +1,20 @@
+.image_gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    list-style: none;
+  }
+  .single_product{
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .single_product img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .single_product img:hover{
+    background-color: red;
+  }
+  
